@@ -1,0 +1,21 @@
+
+Criamo un modello secondo il quale memorizzare tutti i dati riguardanti un auto.
+
+marca=>stringa=>VARCHAR(150)
+modello=>stringa=>VARCHAR(150)
+allestimento=>stringa=>VARCHAR(150)
+anno di immatricolazione=>data=>DATE
+carburante=>stringa=>VARCHAR(100)
+chilometraggio=>numero=>MEDIUMINT
+potenza=>numero=>SMALL+stringa=>VARCHAR(20)
+cilindrata=>numeor=>SMALL+stringa=>VARCHAR(20)
+classe emissioni=>stringa=>VARCHAR(4) + numero=>TINYINT + stringa=>VARCHAR(15)
+consumi=>float=>FLOAT(3,1)
+validità revisione=>data=>DATE
+targa=>stringa=>VARCHAR(20)
+descrizione optional=>stringa=>TEXT
+precedenti proprietari=>numero=>TINYINT + stringa=>VARCHAR(40)
+colore carrozzeria=>stringa=>VARCHAR(50)
+colore interni=>stringa=>VARCHAR(50)
+
+     
