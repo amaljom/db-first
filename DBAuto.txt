@@ -8,15 +8,18 @@ allestimento=>stringa=>VARCHAR(150) - NOTNULL
 anno di immatricolazione=>data=>DATE - NOTNULL
 carburante=>stringa=>VARCHAR(100) - NOTNULL
 chilometraggio=>numero=>MEDIUMINT - NOTNULL
-potenza=>stringa=>VARCHAR(30) -NOTNULL
-cilindrata=>stringa=>VARCHAR(30) -NOTNULL
+potenza=>numero=>SMALL -NOTNULL
+cilindrata=>numero=>SMALL -NOTNULL
 classe emissioni=>Stringa=>VARCHAR(30) -NOTNULL
 consumi=>float=>FLOAT(3,1) -NULL
 validità revisione=>data=>DATE - NULL
 targa=>stringa=>VARCHAR(20) - NULL
 descrizione optional=>stringa=>TEXT - NULL
-precedenti proprietari=>numero=>stringa=>VARCHAR(40) - NOTNULL
+precedenti proprietari=>numero=>TINYINT - NOTNULL
 colore carrozzeria=>stringa=>VARCHAR(50) - NOTNULL
 colore interni=>stringa=>VARCHAR(50) -NOTNULL
-
-     
+navigatore=>stringa=>VARCHAR(40) - NOTNULL
+cerchi in lega=>stringa=>VARCHA(10) - NOTNULL
+misura cerchi in lega=>numero=>TINYINT -NULL
+cambio => stringa => VARCHAR(20) - NOTNULL
+prezzo => numero => SMALL  
