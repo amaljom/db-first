@@ -1,21 +1,22 @@
 
 Criamo un modello secondo il quale memorizzare tutti i dati riguardanti un auto.
 
-marca=>stringa=>VARCHAR(150)
-modello=>stringa=>VARCHAR(150)
-allestimento=>stringa=>VARCHAR(150)
-anno di immatricolazione=>data=>DATE
-carburante=>stringa=>VARCHAR(100)
-chilometraggio=>numero=>MEDIUMINT
-potenza=>numero=>SMALL+stringa=>VARCHAR(20)
-cilindrata=>numeor=>SMALL+stringa=>VARCHAR(20)
-classe emissioni=>stringa=>VARCHAR(4) + numero=>TINYINT + stringa=>VARCHAR(15)
-consumi=>float=>FLOAT(3,1)
-validità revisione=>data=>DATE
-targa=>stringa=>VARCHAR(20)
-descrizione optional=>stringa=>TEXT
-precedenti proprietari=>numero=>TINYINT + stringa=>VARCHAR(40)
-colore carrozzeria=>stringa=>VARCHAR(50)
-colore interni=>stringa=>VARCHAR(50)
+id-numero=>MEDIUMINT-PRIMARY_KEY - AUTO_INCREMENT
+marca=>stringa=>VARCHAR(150) - NOTNULL
+modello=>stringa=>VARCHAR(150) - NOTNULL
+allestimento=>stringa=>VARCHAR(150) - NOTNULL
+anno di immatricolazione=>data=>DATE - NOTNULL
+carburante=>stringa=>VARCHAR(100) - NOTNULL
+chilometraggio=>numero=>MEDIUMINT - NOTNULL
+potenza=>stringa=>VARCHAR(30) -NOTNULL
+cilindrata=>stringa=>VARCHAR(30) -NOTNULL
+classe emissioni=>Stringa=>VARCHAR(30) -NOTNULL
+consumi=>float=>FLOAT(3,1) -NULL
+validità revisione=>data=>DATE - NULL
+targa=>stringa=>VARCHAR(20) - NULL
+descrizione optional=>stringa=>TEXT - NULL
+precedenti proprietari=>numero=>stringa=>VARCHAR(40) - NOTNULL
+colore carrozzeria=>stringa=>VARCHAR(50) - NOTNULL
+colore interni=>stringa=>VARCHAR(50) -NOTNULL
 
      
